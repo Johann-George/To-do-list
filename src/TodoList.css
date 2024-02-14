@@ -1,0 +1,65 @@
+.gradient-custom {
+    background: radial-gradient(50% 123.47% at 50% 50%, #00ff94 0%, #720059 100%),
+      linear-gradient(121.28deg, #669600 0%, #ff0000 100%),
+      linear-gradient(360deg, #0029ff 0%, #8fff00 100%),
+      radial-gradient(100% 164.72% at 100% 100%, #6100ff 0%, #00ff57 100%),
+      radial-gradient(100% 148.07% at 0% 0%, #fff500 0%, #51d500 100%);
+    background-blend-mode: screen, color-dodge, overlay, difference, normal;
+  }
+
+#task-container {
+    max-height: 230px; /* Set a maximum height for the container */
+    overflow-y: auto; /* Enable vertical scrolling */
+}
+
+/* Width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  } 
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+  
+
+
+#add-task{
+    width: 70px;
+    height: 30px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(46, 178, 240);
+    color: white;
+    font-size: small;
+    font-family: sans-serif;
+}
+
+#task{
+    width: 500px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+    background-color:#f4f6f7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    text-align: left;
+}
+
+#task button{
+    margin-left: 5px;
+}
